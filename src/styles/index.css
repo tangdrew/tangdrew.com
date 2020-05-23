@@ -1,0 +1,66 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0;
+  letter-spacing: 0.05em; /* Adjust as needed */
+}
+
+.cursor {
+  /* border-right: 0.15em solid orange; /* The typwriter cursor */
+  animation: blink-caret 0.3s step-end 5;
+}
+
+.typing {
+  animation: typing 0.5s steps(40, end);
+}
+
+.backspacing {
+  animation: backspacing 0.5s steps(40, end);
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typing effect */
+@keyframes backspacing {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@import "tailwindcss/utilities";
