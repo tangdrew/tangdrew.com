@@ -9,7 +9,7 @@
     "@mdx-js/mdx": "^1.6.1",
     "@mdx-js/react": "^1.6.1",
     "@tippyjs/react": "^4.0.2",
-    "gatsby": "^2.21.22",
+    "gatsby": "^4.25.7",
     "gatsby-image": "^2.4.3",
     "gatsby-plugin-graphql-codegen": "^2.7.1",
     "gatsby-plugin-manifest": "^2.4.2",
