@@ -1,56 +1,29 @@
 {
   "name": "tangdrew.com",
   "private": true,
-  "description": "Andrew's personal website.",
-  "version": "0.1.0",
-  "author": "Andrew Tang <andrew.yishiou.tang@gmail.com>",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "delete": "rm -rf app/n"
+  },
   "dependencies": {
-    "@aengusm/gatsby-theme-brain": "^1.0.11",
-    "@mdx-js/mdx": "^1.6.1",
-    "@mdx-js/react": "^1.6.1",
-    "@tippyjs/react": "^4.0.2",
-    "gatsby": "^2.21.22",
-    "gatsby-image": "^2.4.3",
-    "gatsby-plugin-graphql-codegen": "^2.7.1",
-    "gatsby-plugin-manifest": "^2.4.2",
-    "gatsby-plugin-mdx": "^1.2.7",
-    "gatsby-plugin-offline": "^3.2.1",
-    "gatsby-plugin-postcss": "^2.3.1",
-    "gatsby-plugin-react-helmet": "^3.3.1",
-    "gatsby-plugin-sharp": "^2.6.2",
-    "gatsby-plugin-transition-link": "^1.18.0",
-    "gatsby-source-filesystem": "^2.3.1",
-    "gatsby-transformer-sharp": "^2.5.2",
-    "gsap": "^3.2.6",
-    "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^6.0.0",
-    "tailwindcss": "^1.4.6",
-    "typescript": "^3.9.2"
+    "@next/mdx": "16.1.5",
+    "@tailwindcss/postcss": "^4.1.8",
+    "@types/mdx": "^2.0.13",
+    "@vercel/analytics": "^1.5.0",
+    "framer-motion": "^12.16.0",
+    "next": "16.1.5",
+"react": "19.1.0",
+    "react-dom": "19.1.0",
+    "sugar-high": "^0.9.3"
   },
   "devDependencies": {
-    "prettier": "2.0.5"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "debug": " node --nolazy --inspect-brk node_modules/gatsby/dist/bin/gatsby develop"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "@types/node": "^22.15.29",
+    "@types/react": "^19.1.6",
+    "@types/react-dom": "^19.1.6",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^4.1.8",
+    "typescript": "^5.8.3"
   }
 }
