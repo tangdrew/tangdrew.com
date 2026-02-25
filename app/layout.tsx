@@ -41,8 +41,8 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} ${newsreader.variable}`}
     >
-      <body className="antialiased tracking-tight bg-stone-50 dark:bg-[#0c0a09] text-stone-900 dark:text-stone-200 selection:bg-teal-100 dark:selection:bg-teal-900/30">
-        <div className="min-h-screen flex flex-col justify-between pt-0 md:pt-8 p-8">
+      <body className="antialiased tracking-tight bg-stone-50 dark:bg-[#111010] text-stone-900 dark:text-stone-200 selection:bg-teal-100 dark:selection:bg-teal-900/30">
+        <div className="min-h-screen flex flex-col justify-between pt-12 md:pt-32 p-8">
           <main className="max-w-[60ch] mx-auto w-full space-y-6 font-sans">
             {children}
           </main>
